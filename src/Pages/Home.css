@@ -164,6 +164,12 @@ Section four
 .technologies-img {
     width: 100px;
     height: 100px;
+    margin: 1rem;
+    view-timeline-name: --reveal;
+    animation-name: show;
+    animation-fill-mode: both;
+    animation-timeline: --reveal;
+    animation-range: entry 35% cover 50%;
 }
 .technologies-img:hover {
     transform: scale(1.5);
@@ -245,6 +251,7 @@ Section four
         font-family: "Quicksand", sans-serif;
         font-size: 1rem;
         color: #5d5d5e;
+        margin: 1rem;
     }
     .technologies {
         margin-bottom: 5rem;
@@ -315,6 +322,7 @@ Section four
     }
     .member-values {
         margin: 0;
+        padding: 0 1.5rem;
     }
 
     .services {
@@ -685,9 +693,7 @@ Section four
         flex-direction: row;
         justify-content: space-around;
     }
-    .about-us {
-        height: 400px;
-    }
+
     .content-member {
         width: 25%;
     }
@@ -703,9 +709,7 @@ Section four
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-    }
-    .we-are {
-        width: 50%;
+        height: 400px;
     }
     .categories {
         width: 60%;

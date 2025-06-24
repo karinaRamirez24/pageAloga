@@ -159,7 +159,8 @@ Section four
     opacity: 0;
     animation: aparecer 2s ease-in-out forwards;
     display: flex;
-    justify-content: space-evenly;
+    gap: 1rem;
+    justify-content: center;
 }
 .technologies-img {
     width: 100px;

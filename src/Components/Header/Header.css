@@ -1,0 +1,111 @@
+* {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav-main {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        background: rgba(230, 240, 250, 0.94);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+    }
+
+    .nav-main-content {
+        max-width: 1400px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 20px;
+        position: relative;
+    }
+
+    .main-content-image img.nav-image-logo {
+        width: 140px;
+        height: auto;
+        transition: transform 0.3s ease;
+    }
+
+    .main-content-image:hover img.nav-image-logo {
+        transform: scale(1.05);
+    }
+
+    .main-content-menu {
+        display: flex;
+    }
+
+    .menu-ul {
+        list-style: none;
+        display: flex;
+        gap: 30px;
+        margin-bottom: 0;
+    }
+
+    .menu-li a {
+        text-decoration: none;
+        color: #333;
+        font-weight: 600;
+        font-size: 16px;
+        padding: 10px 16px;
+        border-radius: 8px;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    .menu-li a:hover {
+        background-color: rgba(255, 255, 255, 0.4);
+        color: #0a3d62;
+    }
+
+    .menu-toggle {
+        display: none;
+        cursor: pointer;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 1100;
+    }
+
+    .menu-toggle img {
+        width: 28px;
+        height: auto;
+    }
+
+    @media (max-width: 1025px) {
+        .main-content-menu {
+            display: block;
+        }
+
+        .menu-toggle {
+            display: block;
+        }
+
+        .menu-ul {
+            display: none;
+            flex-direction: column;
+            position: absolute;
+            top: 70px;
+            right: 20px;
+            width: 200px;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            padding: 10px 0;
+            z-index: 1050;
+        }
+
+        .menu-ul.active {
+            display: flex;
+        }
+    }
+
+    .spacer {
+        height: 80px;
+    }

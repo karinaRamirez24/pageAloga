@@ -1,12 +1,37 @@
 import "./App.css";
 import backgrounvideo from "./img/Background_section.webm";
-import firstImage from "./img/IMG_PROGRAMMIN.jpg";
 import Values from "./img/values.png";
+import Goal from "./img/goal.png";
+import Vision from "./img/vision.png";
+import FirstImageCollage from "./img/IMG_PROGRAMMIN.jpg";
+import SecondImageCollage from "./img/vitamins.jpg";
+import ThirdImageCollage from "./img/inventory.jpg";
+import FourthImageCollage from "./img/web_App.jpg";
+import FifthImageCollage from "./img/dev.jpg";
+import ReactImage from "./img/React.png";
+import SqlImage from "./img/sql.png";
+import AWSImage from "./img/aws.png";
+import PythonImage from "./img/python.png"; 
+import AngularImage from "./img/angular.png";
+import CppImage from "./img/c++.png";
+import FigmaImage from "./img/figma.png";
+import FlutterImage from "./img/flutter.png";
+import AzureImage from "./img/azure.png";
+import JsImage from "./img/js.png";
+import MysqlImage from "./img/mysql.png";
+import JavaImage from "./img/java.png";
+import GoogleCloudImage from "./img/google-cloud.png";
+import DockerImage from "./img/docker.png";
+import GithubImage from "./img/github.png";
 import mobileDevelopment from "./img/mobileDevelopment.png";
 import cybersecurity from "./img/cybersecurity.png"
 import softwareTest from "./img/softwareTest.png";
 import techSupport from "./img/techSupport.png";
 import AI from "./img/AI.png"
+
+
+
+
 
 function App() {
     return (
@@ -43,7 +68,7 @@ function App() {
             <div className="container-team">
                 <div className="content-member">
                     <div className="member-img">
-                        <img className="img-propierties" src="../img/goal.png" alt="cohete"></img>
+                        <img className="img-propierties" src={Goal} alt="icon cohete"></img>
                         <h2 className="member-name">Misión</h2>
                     </div>
                     <div className="member-description">
@@ -55,7 +80,7 @@ function App() {
                 </div>
                 <div className="content-member">
                     <div className="member-img">
-                        <img className="img-propierties" src="../img/vision.png" alt="vision"></img>
+                        <img className="img-propierties" src={Vision} alt="icon vision"></img>
                         <h2 className="member-name">Visión</h2>
                     </div>
                     <div className="member-description">
@@ -106,11 +131,11 @@ function App() {
                         </div>
                     </div>
                     <div className="technologies-pc">
-                        <img src={firstImage} alt="technologies-pc" className="firs-img"></img>
-                        <img src="../img/vitamins.jpg" alt="vitamins" className="firs-img"></img>
-                        <img src="../img/inventory.jpg" alt="inventory" className="webapp"></img>
-                        <img src="../img/web_App.jpg" alt="web_app" className="last-img"></img>
-                        <img src="../img/dev.jpg" alt="dev" className="last-img"></img>
+                        <img src={FirstImageCollage} alt="technologies-pc" className="firs-img"></img>
+                        <img src={SecondImageCollage} alt="vitamins" className="firs-img"></img>
+                        <img src={ThirdImageCollage} alt="inventory" className="webapp"></img>
+                        <img src={FourthImageCollage} alt="web_app" className="last-img"></img>
+                        <img src={FifthImageCollage} alt="dev" className="last-img"></img>
                     </div>
                 </div>
             </section>
@@ -175,21 +200,21 @@ function App() {
                 </div>
 
                 <div className="technology-use">
-                    <img className="technologies-img" src="./img/React.png" alt="Technology 1"></img>
-                    <img className="technologies-img" src="./img/sql.png" alt="Technology 2"></img>
-                    <img className="technologies-img" src="./img/aws.png" alt="Technology 3"></img>
-                    <img className="technologies-img" src="./img/python.png" alt="Technology 4"></img>
-                    <img className="technologies-img" src="./img/angular.png" alt="Technology 5"></img>
-                    <img className="technologies-img" src="./img/c++.png" alt="Technology 6"></img>
-                    <img className="technologies-img" src="./img/figma.png" alt="Technology 7"></img>
-                    <img className="technologies-img" src="./img/flutter.png" alt="Technology 8"></img>
-                    <img className="technologies-img" src="./img/azure.png" alt="Technology 9"></img>
-                    <img className="technologies-img" src="./img/js.png" alt="Technology 10"></img>
-                    <img className="technologies-img" src="./img/mysql.png" alt="Technology 11"></img>
-                    <img className="technologies-img" src="./img/java.png" alt="Technology 12"></img>
-                    <img className="technologies-img" src="./img/google-cloud.png" alt="Technology 13"></img>
-                    <img className="technologies-img" src="./img/docker.png" alt="Technology 14"></img>
-                    <img className="technologies-img" src="npm run dev ./img/github.png" alt="Technology 15"></img>
+                    <img className="technologies-img" src={ReactImage} alt="Technology React"></img>
+                    <img className="technologies-img" src={SqlImage} alt="Technology SQL"></img>
+                    <img className="technologies-img" src={AWSImage} alt="Technology AWS"></img>
+                    <img className="technologies-img" src={PythonImage} alt="Technology Python"></img>
+                    <img className="technologies-img" src={AngularImage} alt="Technology Angular"></img>
+                    <img className="technologies-img" src={CppImage} alt="Technology C++"></img>
+                    <img className="technologies-img" src={FigmaImage} alt="Technology Figma"></img>
+                    <img className="technologies-img" src={FlutterImage} alt="Technology Flutter"></img>
+                    <img className="technologies-img" src={AzureImage} alt="Technology Azure"></img>
+                    <img className="technologies-img" src={JsImage} alt="Technology Javascript"></img>
+                    <img className="technologies-img" src={MysqlImage} alt="Technology MySQL"></img>
+                    <img className="technologies-img" src={JavaImage} alt="Technology Java"></img>
+                    <img className="technologies-img" src={GoogleCloudImage} alt="Technology Google Cloud"></img>
+                    <img className="technologies-img" src={DockerImage} alt="Technology Docker"></img>
+                    <img className="technologies-img" src={GithubImage} alt="Technology GitHub"></img>
                 </div>
             </section>
         </>

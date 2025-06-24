@@ -1,7 +1,12 @@
 import "./App.css";
 import backgrounvideo from "./img/Background_section.webm";
 import firstImage from "./img/IMG_PROGRAMMIN.jpg";
-import Values from "./img/values.png"
+import Values from "./img/values.png";
+import mobileDevelopment from "./img/mobileDevelopment.png";
+import cybersecurity from "./img/cybersecurity.png"
+import softwareTest from "./img/softwareTest.png";
+import techSupport from "./img/techSupport.png";
+import AI from "./img/AI.png"
 
 function App() {
     return (
@@ -116,7 +121,7 @@ function App() {
                     <div className="information-service">
                         <div className="service-image">
                             <img
-                                src="../img/mobileDevelopment.png"
+                                src={mobileDevelopment}
                                 alt="mobileDevelopment"
                                 className="image-circle"
                             ></img>
@@ -127,7 +132,7 @@ function App() {
                     </div>
                     <div className="information-second">
                         <div className="service-image">
-                            <img src="../img/cybersecurity.png" alt="cybersecurity" className="image-circle"></img>
+                            <img src= {cybersecurity} alt="cybersecurity" className="image-circle"></img>
                         </div>
                         <div className="service-text">
                             <h3>Almacenamiento en la nube y ciberseguridad.</h3>
@@ -135,7 +140,7 @@ function App() {
                     </div>
                     <div className="information-service">
                         <div className="service-image">
-                            <img src="../img/softwareTest.png" alt="softwareTest" className="image-circle"></img>
+                            <img src={softwareTest} alt="softwareTest" className="image-circle"></img>
                         </div>
                         <div className="service-text">
                             <h3>Control de calidad y pruebas de software.</h3>
@@ -143,7 +148,7 @@ function App() {
                     </div>
                     <div className="information-second">
                         <div className="service-image">
-                            <img src="../img/techSupport.png" alt="techSupport" className="image-circle"></img>
+                            <img src= {techSupport} alt="techSupport" className="image-circle"></img>
                         </div>
                         <div className="service-text">
                             <h3>Soporte tecnico y mantenimietno.</h3>
@@ -151,7 +156,7 @@ function App() {
                     </div>
                     <div className="information-service">
                         <div className="service-image">
-                            <img src="../img/AI.png" alt="AI" className="image-circle"></img>
+                            <img src={AI} alt="AI" className="image-circle"></img>
                         </div>
                         <div className="service-text">
                             <h3>Inteligencia artificial.</h3>
